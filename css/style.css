@@ -13,7 +13,7 @@
 }
 
 p {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
@@ -22,7 +22,6 @@ p {
 /*******Container begin*******/
 
 .container {
-    /*position: relative;*/
     width: 220px;
     height: 250px;
     background-image: url(images/bg_menu.png);
@@ -45,12 +44,12 @@ p {
   border-radius: 5px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.004),inset 0px 2px 0px 0px rgba(255, 255, 255, 0.07);
   font-size: 16px;
+  line-height: 28px;
   font-family: "HelveticaNeue";
   color: rgb(168, 194, 216);
   font-weight: bold;
   text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
-  vertical-align: middle;
 }
 
 /*******Profile begin*******/
@@ -73,7 +72,6 @@ p {
 .messages {
     background-image: url(images/bg_messages.png);
     background-repeat: no-repeat;
-    border-top: none;
 }
 
 .messages > p::before {
@@ -139,7 +137,6 @@ a {
 .settings {
     background-image: url(images/bg_settings.png);
     background-repeat: no-repeat;
-    margin-top: -1px;
 }
 
 .settings > p::before {
